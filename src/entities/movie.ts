@@ -1,3 +1,5 @@
+import { Rating } from "./rating";
+
 interface Movie {
   id?: number;
   title: string;
@@ -6,6 +8,7 @@ interface Movie {
   genres: string;
   director: string;
   actors: string;
+  ratings?: Rating[];
 }
 
 export { Movie };
