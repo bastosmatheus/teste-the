@@ -4,7 +4,10 @@
   "description": "teste técnico para a empresa Tracking HighEnd",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "build": "tsup",
+    "start:dev": "tsx --watch src/index.ts",
+    "start": "node dist/index.js"
   },
   "author": "Matheus Bastos",
   "license": "ISC",
