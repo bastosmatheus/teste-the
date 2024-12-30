@@ -30,8 +30,8 @@ Este projeto está utilizando as seguintes tecnologias:
 ### Filmes
 
 - **GET** `/movies`: lista todos os filmes.
+- **GET** `/movies/title?title=`: lista filmes buscando pelo título (query param).
 - **GET** `/movies/:id`: lista um filme buscando pelo id.
-- **GET** `/movies/title?title=`: lista um filme buscando pelo título.
 - **POST** `/movies`: cria um novo filme.
 - **PATCH** `/movies/:id`: atualiza alguns campos de um filme, buscando pelo id.
 - **DELETE** `/movies/:id`: deleta um filme.
