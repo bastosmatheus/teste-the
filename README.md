@@ -82,6 +82,9 @@ PORT=
 # depois de clonado, procure a pasta do projeto
 $ cd teste-the
 
+# instale as dependências
+$ npm install
+
 # execute o comando docker
 $ docker-compose up
 ```
